@@ -88,5 +88,5 @@ def upload_file():
 # plt.show()
 
 if __name__ == "__main__":
-    port = int(os.environ.get('WEBSITES_PORT', 8080))
+    port = int(os.environ.get('WEBSITES_PORT', 8000))
     app.run(port=port)
