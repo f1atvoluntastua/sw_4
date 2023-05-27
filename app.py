@@ -3,7 +3,6 @@ from flask import Flask, render_template, request
 import os
 import cv2
 import onnxruntime as ort
-import argparse
 import numpy as np
 import sys
 import matplotlib.pyplot as plt
